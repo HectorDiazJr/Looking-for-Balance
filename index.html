@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Looking for Balance</title>
+  <link rel="shortcut icon" type="image/jpg" href="assets/favicon.png" />
+
+  <!-- link to jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- link to our css page -->
+  <link rel="stylesheet" href="assets/style.css" />
+
+  <!-- link for icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<header>
+
+</header>
+
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo center quote" id="apiins"></a>
+      <!-- <a class="waves-effect waves-light btn-small btn" id="quotebtn">Get Quote</a> -->
+      <!-- <ul class="left hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li class="active"><a href="collapsible.html">JavaScript</a></li>
+      </ul> -->
+
+    </div>
+  </nav>
+
+  <!-- <h1>Progress</h1>
+  <div id="myProgress">
+    <div id="myBar"></div>
+  </div>
+  <br>
+  <button id="prog" onclick="move()">Complete</button> -->
+
+  <div class="container">
+
+
+    <div class="row">
+
+      <div class="carousel carousel-slider center">
+        <div class="carousel-fixed-item center">
+          <!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
+        </div>
+        <div class="carousel-item red white-text" href="#one!" id="schedule">
+          <h2>Daily Schedule</h2>
+          <p class="white-text date"></p>
+
+          <div id="sOne" class="row time-block">
+            <div class="col s1" id="timeNumber">
+              <!-- 9AM -->
+            </div>
+            <textarea class="col s9 description" id="first1"></textarea>
+            <form action="#">
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in chckBox" />
+                  <span></span>
+                </label>
+              </p>
+            </form>
+          </div>
+
+          <div id="sTwo" class="row time-block">
+            <div class="col s1" id="timeNumber">
+              <!-- 10AM -->
+            </div>
+            <textarea class="col s9 description" id="first2"></textarea>
+            <form action="#">
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in chckBox" />
+                  <span></span>
+                </label>
+              </p>
+            </form>
+          </div>
+
+          <div id="sThree" class="row time-block">
+            <div class="col s1" id="timeNumber">
+              <!-- 11AM -->
+            </div>
+            <textarea class="col s9 description" id="first3"></textarea>
+            <form action="#">
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in chckBox" />
+                  <span></span>
+                </label>
+              </p>
+            </form>
+          </div>
+
+          <!-- <div id="hour-9" class="row time-block">
+            <div class="col s1" id="timeNumber">
+              12PM
+            </div>
+            <textarea class="col s9 description"> </textarea>
+            <form action="#">
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span></span>
+                </label>
+              </p>
+            </form>
+          </div> -->
+
+        </div>
+        <div class="carousel-item green white-text" href="#three!" id="family">
+          <h2>Plan Family Time Today</h2>
+          <p class="white-text date"></p>
+
+          <div id="fOne" class="row time-block">
+            <div class="col s1" id="timeNumber">
+              <!-- 9AM -->
+            </div>
+            <textarea class="col s9 description" id="second1"></textarea>
+            <form action="#">
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in chckBox" />
+                  <span></span>
+                </label>
+              </p>
+            </form>
+          </div>
+
+          <div id="fTwo" class="row time-block">
+            <div class="col s1" id="timeNumber">
+              <!-- 10AM -->
+            </div>
+            <textarea class="col s9 description" id="second2"></textarea>
+            <form action="#">
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in chckBox" />
+                  <span></span>
+                </label>
+              </p>
+            </form>
+          </div>
+
+          <div id="fThree" class="row time-block">
+            <div class="col s1" id="timeNumber">
+              <!-- 11AM -->
+            </div>
+            <textarea class="col s9 description" id="second3"></textarea>
+            <form action="#">
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in chckBox" />
+                  <span></span>
+                </label>
+              </p>
+            </form>
+          </div>
+
+          <!-- <div id="hour-9" class="row time-block">
+            <div class="col s1" id="timeNumber">
+              12PM
+            </div>
+            <textarea class="col s9 description"></textarea>
+            <form action="#">
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in"/>
+                  <span></span>
+                </label>
+              </p>
+            </form>
+          </div>-->
+        </div>
+
+        <div class="carousel-item blue white-text" href="#four!" id="school">
+          <h2>School To-Do's</h2>
+          <p class="white-text date"></p>
+
+          <div id="scOne" class="row time-block">
+            <div class="col s1" id="timeNumber">
+              <!-- 9AM -->
+            </div>
+            <textarea class="col s9 description" id="third1"></textarea>
+            <form action="#">
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in chckBox" />
+                  <span></span>
+                </label>
+              </p>
+            </form>
+          </div>
+
+          <div id="scTwo" class="row time-block">
+            <div class="col s1" id="timeNumber">
+              <!-- 10AM -->
+            </div>
+            <textarea class="col s9 description" id="third2"></textarea>
+            <form action="#">
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in chckBox" />
+                  <span></span>
+                </label>
+              </p>
+            </form>
+          </div>
+
+          <div id="scThree" class="row time-block">
+            <div class="col s1" id="timeNumber">
+              <!-- 11AM -->
+            </div>
+            <textarea class="col s9 description" id="third3"></textarea>
+            <form action="#">
+              <p>
+                <label>
+                  <input type="checkbox" class="filled-in chckBox" />
+                  <span></span>
+                </label>
+              </p>
+            </form>
+          </div>
+
+          <!-- <div id="hour-9" class="row time-block">
+              <div class="col s1" id="timeNumber">
+                12PM
+              </div>
+              <textarea class="col s9 description"></textarea>
+              <form action="#">
+                <p>
+                  <label>
+                    <input type="checkbox" class="filled-in" />
+                    <span></span>
+                  </label>
+                </p>
+              </form>
+            </div> -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- linked to our JavaScript -->
+  <script rel="textjavascript" src="assets/script.js"></script>
+</body>
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <h5>Dad Joke:</h5>
+        <h6 class="white-text" id="dadapi"></h6>
+        <!-- <a class="waves-effect waves-light btn" id="healthbtn">Get Health Tip</a> -->
+        <!-- <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p> -->
+      </div>
+      <!-- <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+        </ul>
+      </div> -->
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      Looking for Balance
+      <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+    </div>
+  </div>
+</footer>
+
+
+
+</html>

@@ -1,0 +1,73 @@
+header {
+    width: 100%;
+    height: 200px;
+    background: url('./sunset.png');
+    background-size: cover;
+    color:white;
+    text-align: center;
+    padding: 45px 0;
+    }
+
+  #apiins {
+    font-size: 15px;
+    padding-bottom: 0px;
+    width: fit-content;
+  }
+
+  nav {
+    height:7em;
+  }
+  
+  .btn {
+    margin-left: 20px;
+  }
+  
+  .carousel {
+    margin-top: 20px;
+  }
+  
+  .white-text{
+    text-align: center;
+  }
+
+  textarea{
+    background-color: lightblue;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .description{
+    white-space: pre-wrap;
+  }
+
+  /* Change based on item done */
+  /* .done {
+    background-color: lightgreen;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+  } */
+
+  #progressButton {
+    color: blueviolet;
+  }
+
+  #myProgress {
+    width: 10%;
+    height: 30px;
+    background-color:blueviolet;
+    text-align: center; /* To center it horizontally (if you want)
+    line-height: 30px; /* To center it vertically */
+    color: white;
+  }
+
+
+ 
+
